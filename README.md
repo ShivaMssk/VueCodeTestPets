@@ -18,16 +18,24 @@ download the zip and extract to a local directory
 ``` bash
 # install dependencies
 npm install
+```
 
+``` bash
 # serve with hot reload at localhost:8080
 npm run dev
+```
 
+``` bash
 # build for production with minification
 npm run build
+```
 
+``` bash
 # build for production and view the bundle analyzer report
 npm run build --report
+```
 
+``` bash
 ## Built With
 
 - Vue [`^2.6.10`]
