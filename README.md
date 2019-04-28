@@ -2,6 +2,17 @@
 
 This application consume the json (http://5c92dbfae7b1a00014078e61.mockapi.io/owners) and output a list of all the cats in alphabetical order under a heading of the gender of their owner.
 
+## Getting Started
+
+Clone the project 
+```bash
+git clone 'https://github.com/ShivaMssk/VueCodeTestPets.git'
+```
+or
+
+download the zip and extract to a local directory
+
+
 ## Build Setup
 
 ``` bash
