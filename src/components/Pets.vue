@@ -15,7 +15,7 @@
                 <li v-for="val in male" v-bind:key="val" class="list-group-item d-flex justify-content-between align-items-center" >
                     
                     {{ val }}
-                    <img src="../assets/cat.png" class="img-circle"  width="30" height="30"> 
+                    <img src="../assets/cat.png" class="img-circle" alt="cat" width="30" height="30"> 
                 </li>
               </ul>
             </div>
@@ -30,7 +30,7 @@
               <ul class="list-group list-group-flush">
                 <li v-for="val in female" v-bind:key="val" class="list-group-item d-flex justify-content-between align-items-center">
                     {{ val }}  
-                  <img src="../assets/cat.png" class="img-circle"  width="30" height="30"> 
+                  <img src="../assets/cat.png" class="img-circle" alt="cat"  width="30" height="30"> 
                 </li>
               </ul>
             </div>
