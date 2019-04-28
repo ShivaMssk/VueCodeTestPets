@@ -74,7 +74,9 @@ export default {
       me.female.sort();
     }
   },
+  // The created hook allows you to add code which is run if the Vue instance is created. 
   created(){
+    //  Promise based HTTP client for the browser and node.js
      axios.get(`http://5c92dbfae7b1a00014078e61.mockapi.io/owners`)
       .then(res => { 
         this.getPetsData(res.data, 'Cat');
